@@ -1,46 +1,304 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ashford University - Excellence in Every Endeavour</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Nav  -->
-     <nav id="navbar">
-        <div class="nav-inner">
-            <a href="#home">
-                <span class="logo-crest">⬡</span>
-                <div>
-                    <span class="logo-name">Ashford</span>
-                    <span class="logo-sub">University</span>
-                </div>
-            </a>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Faculties</a></li>
-                <li><a href="#">Admission</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <a href="#" class="nav-cta">Student Portal</a>
-            <button class="hamburger" aria-label="Menu">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-        <div class="mobile-menu" id="mobileMenu">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Faculties</a>
-            <a href="#">Admissions</a>
-            <a href="#">Contact</a>
-            <a href="#">Student Portal</a>
-        </div>
-     </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav id="navbar">
+      <div class="nav-inner">
+        <a href="#home" class="logo" onclick="showPage('home')">
+          <span class="logo-crest">⬡</span>
+          <div>
+            <span class="logo-name">Ashford</span>
+            <span class="logo-sub">University</span>
+          </div>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#" onclick="showPage('home')">Home</a></li>
+          <li><a href="#" onclick="showPage('about')">About</a></li>
+          <li><a href="#" onclick="showPage('courses')">Faculties</a></li>
+          <li><a href="#" onclick="showPage('admissions')">Admissions</a></li>
+          <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+        </ul>
+        <a href="#" class="nav-cta" onclick="showPage('portal')"
+          >Student Portal</a
+        >
+        <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a
+          href="#"
+          onclick="
+            showPage('home');
+            toggleMenu();
+          "
+          >Home</a
+        >
+        <a
+          href="#"
+          onclick="
+            showPage('about');
+            toggleMenu();
+          "
+          >About</a
+        >
+        <a
+          href="#"
+          onclick="
+            showPage('courses');
+            toggleMenu();
+          "
+          >Faculties</a
+        >
+        <a
+          href="#"
+          onclick="
+            showPage('admissions');
+            toggleMenu();
+          "
+          >Admissions</a
+        >
+        <a
+          href="#"
+          onclick="
+            showPage('contact');
+            toggleMenu();
+          "
+          >Contact</a
+        >
+        <a
+          href="#"
+          onclick="
+            showPage('portal');
+            toggleMenu();
+          "
+          >Student Portal</a
+        >
+      </div>
+    </nav>
 
-     <!-- --------------HOME PAGE-------------- -->
-</body>
+    <!-- ══════════════ HOME PAGE ══════════════ -->
+    <div id="page-home" class="page active">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-bg small-hero">
+          <div class="hero-orb orb1"></div>
+          <div class="hero-orb orb2"></div>
+          <div class="hero-grid"></div>
+        </div>
+        <div class="hero-content">
+          <p class="hero-eyebrow animate-in" style="animation-delay: 0.1s">
+            Est. 1887 · Lagos, Nigeria
+          </p>
+          <h1 class="hero-title animate-in" style="animation-delay: 0.25s">
+            Shaping Minds.<br /><em>Shaping Futures.</em>
+          </h1>
+          <p class="hero-sub animate-in" style="animation-delay: 0.4s">
+            Ashford University stands at the confluence of tradition and
+            innovation —<br />
+            where rigorous scholarship meets bold discovery.
+          </p>
+          <div class="hero-actions animate-in" style="animation-delay: 0.55s">
+            <button class="btn-primary" onclick="showPage('admissions')">
+              Apply Now
+            </button>
+            <button class="btn-ghost" onclick="showPage('courses')">
+              Explore Courses
+            </button>
+          </div>
+          <div class="hero-stats animate-in" style="animation-delay: 0.7s">
+            <div class="stat">
+              <span class="stat-num">48K+</span
+              ><span class="stat-label">Students</span>
+            </div>
+            <div class="stat-div"></div>
+            <div class="stat">
+              <span class="stat-num">320+</span
+              ><span class="stat-label">Programmes</span>
+            </div>
+            <div class="stat-div"></div>
+            <div class="stat">
+              <span class="stat-num">#7</span
+              ><span class="stat-label">World Ranking</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll">
+          <span>Scroll</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <!-- intro -->
+      <section class="intro-section">
+        <div class="container split-layout">
+          <div class="split-text">
+            <p class="section-eyebrow">Our Story</p>
+            <h2 class="secton-title">
+              A Century of <br />
+              Academic Excellent
+            </h2>
+            <p class="body-text">
+              Founded in 1887 by Sir James Ashford, our university has grown
+              from a modest college of 40 students into one of the world's most
+              respected academic institutions. Spanning 300 acres of historic
+              grounds, we champion a culture of curiosity, inclusivity, and
+              relentless intellectual pursuit.
+            </p>
+            <p class="body-text">
+              From Nobel laureates to world leaders, Ashford alumni have left an
+              indelible mark on science, culture, policy, and business — a
+              legacy we continue to build upon every day.
+            </p>
+            <button class="btn-outline" onclick="showPage('about')">
+              Learn More About Us →
+            </button>
+          </div>
+
+          <div class="split-visual">
+            <div class="visual-card card1">
+              <div class="vc-inner">
+                <span class="vc-icon">🏛️</span>
+                <strong>Historic Campus</strong>
+                <p>300 acres of Gothic architecture and modern labs</p>
+              </div>
+            </div>
+            <div class="visual-card card2">
+              <div class="vc-inner">
+                <span class="vc-icon">🔬</span>
+                <strong>Research First</strong>
+                <p>£420M annual research funding</p>
+              </div>
+            </div>
+            <div class="visual-card card3">
+              <div class="vc-inner">
+                <span class="vc-icon">🌍</span>
+                <strong>Global Community</strong>
+                <p>Students from 140+ countries</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Programs  -->
+      <section class="programs-section">
+        <div class="container">
+          <p class="section-eyebrow center">Academic Excellence</p>
+          <h2 class="section-title center">Featured Programmes</h2>
+          <div class="programs-grid">
+            <div class="program-card" onclick="showPage('courses')">
+              <div class="prog-icon">⚗️</div>
+              <h3>Sciences</h3>
+              <p>
+                From molecular biology to astrophysics — explore the boundaries
+                of the natural world.
+              </p>
+              <span class="prog-tag">42 Courses</span>
+            </div>
+            <div class="program-card featured" onclick="showPage('courses')">
+              <div class="prog-icon">⚙️</div>
+              <h3>Engineering</h3>
+              <p>
+                Solve real-world challenges with cutting-edge engineering
+                disciplines.
+              </p>
+              <span class="prog-tag">38 Courses</span>
+              <span class="prog-badge">Most Popular</span>
+            </div>
+            <div class="progam-card" onclick="showPage('courses')">
+              <div class="prog-icon">📊</div>
+              <h3>Business</h3>
+              <p>
+                Develop the strategic leadership skills global organisations
+                demand.
+              </p>
+              <span class="prog-tag">31Courses</span>
+            </div>
+            <div class="program-card" onclick="showPage('courses')">
+              <div class="prog-icon">🎨</div>
+              <h3>Arts & Humanities</h3>
+              <p>
+                Engage with the great traditions and forge new cultural
+                conversations.
+              </p>
+              <span class="prog-tag">55 Courses</span>
+            </div>
+            <div class="program-card" onclick="showPage('courses')">
+              <div class="prog-icon">⚖️</div>
+              <h3>Law</h3>
+              <p>
+                A rigorous legal education grounded in justice, ethics, and
+                advocacy.
+              </p>
+              <span class="prog-tag">18 Courses</span>
+            </div>
+            <div class="program-card" onclick="showPage('courses')">
+              <div class="prog-icon">🧠</div>
+              <h3>Medicine</h3>
+              <p>
+                Train with world-leading clinicians and researchers in modern
+                facilities.
+              </p>
+              <span class="prog-tag">24 Courses</span>
+            </div>
+          </div>
+          <div class="center" style="margin-top: 3rem;">
+            <button class="btn-primary" onclick="showPage('courses')">View All Faculties</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- News -->
+       <section class="news-section">
+        <div class="container">
+            <p class="section-eyebrow">Latest Updates</p>
+            <h2 class="section-title">News & Announcement</h2>
+            <div class="news-grid">
+                <div class="news-card large">
+                    <div class="news-img" style="background:linear-gradient(135deg,#1a3a5c,#2d6a9f)"">
+                        <span style="font-size: 4rem;">🏆</span>
+                    </div>
+                    <div class="news-body">
+                        <span class="news-tag">Achievement</span>
+                        <h3>Ashford Rises to #7 in Global University Rankings 2026</h3>
+                        <p>For the third consecutive year, Ashford University has climbed the QS World University Rankings, cementing our reputation among the global elite.</p>
+                        <span class="news-date">May 3, 2026</span>
+                    </div>
+                </div>
+                <div class="news-col">
+                    <div class="news-card small">
+                        <span class="news-tag">Research</span>
+                         <h3>Prof. Adesola Okonkwo Awarded £2.4M Wellcome Trust Grant</h3>
+                        <span class="news-date">April 28, 2026</span>
+                    </div>
+                    <div class="news-card small">
+                        <span class="news-tag">Admissio</span>
+                         <h3>Applications Open for 2026/27 Postgraduate Programmes</h3>
+                         <span class="news-date">April 15, 2026</span>
+                    </div>
+                    <div class="news-card">
+                         <span class="news-tag">Campus</span>
+                         <h3>New £180M Innovation Hub Opens on West Campus</h3>
+                         <span class="news-date">March 30, 2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- Testimonials -->
+    </div>
+  </body>
 </html>
