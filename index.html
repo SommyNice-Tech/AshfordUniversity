@@ -3,16 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ashford University - Excellence in Every Endeavour</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- NAV -->
+    <!-- Nav  -->
     <nav id="navbar">
       <div class="nav-inner">
         <a href="#home" class="logo" onclick="showPage('home')">
@@ -88,18 +83,18 @@
       </div>
     </nav>
 
-    <!-- ══════════════ HOME PAGE ══════════════ -->
+    <!-- Home Page -->
     <div id="page-home" class="page active">
       <!-- Hero -->
       <section class="hero">
-        <div class="hero-bg small-hero">
+        <div class="hero-bg">
           <div class="hero-orb orb1"></div>
           <div class="hero-orb orb2"></div>
           <div class="hero-grid"></div>
         </div>
         <div class="hero-content">
           <p class="hero-eyebrow animate-in" style="animation-delay: 0.1s">
-            Est. 1887 · Lagos, Nigeria
+            Est. 1887 ·Lagos, Nigeria
           </p>
           <h1 class="hero-title animate-in" style="animation-delay: 0.25s">
             Shaping Minds.<br /><em>Shaping Futures.</em>
@@ -140,17 +135,14 @@
         </div>
       </section>
 
-      <!-- intro -->
+      <!-- Intro -->
       <section class="intro-section">
         <div class="container split-layout">
           <div class="split-text">
             <p class="section-eyebrow">Our Story</p>
-            <h2 class="secton-title">
-              A Century of <br />
-              Academic Excellent
-            </h2>
+            <h2 class="section-title">A Century of<br />Academic Excellence</h2>
             <p class="body-text">
-              Founded in 1887 by Sir James Ashford, our university has grown
+              Founded in 1887 by Sir Edmund Ashford, our university has grown
               from a modest college of 40 students into one of the world's most
               respected academic institutions. Spanning 300 acres of historic
               grounds, we champion a culture of curiosity, inclusivity, and
@@ -165,7 +157,6 @@
               Learn More About Us →
             </button>
           </div>
-
           <div class="split-visual">
             <div class="visual-card card1">
               <div class="vc-inner">
@@ -192,7 +183,7 @@
         </div>
       </section>
 
-      <!-- Featured Programs  -->
+      <!-- Featured Programs -->
       <section class="programs-section">
         <div class="container">
           <p class="section-eyebrow center">Academic Excellence</p>
@@ -224,7 +215,7 @@
                 Develop the strategic leadership skills global organisations
                 demand.
               </p>
-              <span class="prog-tag">31Courses</span>
+              <span class="prog-tag">31 Courses</span>
             </div>
             <div class="program-card" onclick="showPage('courses')">
               <div class="prog-icon">🎨</div>
@@ -254,147 +245,876 @@
               <span class="prog-tag">24 Courses</span>
             </div>
           </div>
-          <div class="center" style="margin-top: 3rem;">
-            <button class="btn-primary" onclick="showPage('courses')">View All Faculties</button>
+          <div class="center" style="margin-top: 3rem">
+            <button class="btn-primary" onclick="showPage('courses')">
+              View All Faculties
+            </button>
           </div>
         </div>
       </section>
 
       <!-- News -->
-       <section class="news-section">
+      <section class="news-section">
         <div class="container">
-            <p class="section-eyebrow">Latest Updates</p>
-            <h2 class="section-title">News & Announcement</h2>
-            <div class="news-grid">
-                <div class="news-card large">
-                    <div class="news-img" style="background:linear-gradient(135deg,#1a3a5c,#2d6a9f)"">
-                        <span style="font-size: 4rem;">🏆</span>
-                    </div>
-                    <div class="news-body">
-                        <span class="news-tag">Achievement</span>
-                        <h3>Ashford Rises to #7 in Global University Rankings 2026</h3>
-                        <p>For the third consecutive year, Ashford University has climbed the QS World University Rankings, cementing our reputation among the global elite.</p>
-                        <span class="news-date">May 3, 2026</span>
-                    </div>
-                </div>
-                <div class="news-col">
-                    <div class="news-card small">
-                        <span class="news-tag">Research</span>
-                         <h3>Prof. Adesola Okonkwo Awarded £2.4M Wellcome Trust Grant</h3>
-                        <span class="news-date">April 28, 2026</span>
-                    </div>
-                    <div class="news-card small">
-                        <span class="news-tag">Admission</span>
-                         <h3>Applications Open for 2026/27 Postgraduate Programmes</h3>
-                         <span class="news-date">April 15, 2026</span>
-                    </div>
-                    <div class="news-card small">
-                         <span class="news-tag">Campus</span>
-                         <h3>New £180M Innovation Hub Opens on West Campus</h3>
-                         <span class="news-date">March 30, 2026</span>
-                    </div>
-                </div>
+          <p class="section-eyebrow">Latest Updates</p>
+          <h2 class="section-title">News & Announcements</h2>
+          <div class="news-grid">
+            <div class="news-card large">
+              <div
+                class="news-img"
+                style="background: linear-gradient(135deg, #1a3a5c, #2d6a9f)"
+              >
+                <span style="font-size: 4rem">🏆</span>
+              </div>
+              <div class="news-body">
+                <span class="news-tag">Achievement</span>
+                <h3>Ashford Rises to #7 in Global University Rankings 2026</h3>
+                <p>
+                  For the third consecutive year, Ashford University has climbed
+                  the QS World University Rankings, cementing our reputation
+                  among the global elite.
+                </p>
+                <span class="news-date">May 3, 2026</span>
+              </div>
             </div>
+            <div class="news-col">
+              <div class="news-card small">
+                <span class="news-tag">Research</span>
+                <h3>
+                  Prof. Adesola Okonkwo Awarded £2.4M Wellcome Trust Grant
+                </h3>
+                <span class="news-date">April 28, 2026</span>
+              </div>
+              <div class="news-card small">
+                <span class="news-tag">Admissions</span>
+                <h3>Applications Open for 2026/27 Postgraduate Programmes</h3>
+                <span class="news-date">April 15, 2026</span>
+              </div>
+              <div class="news-card small">
+                <span class="news-tag">Campus</span>
+                <h3>New £180M Innovation Hub Opens on West Campus</h3>
+                <span class="news-date">March 30, 2026</span>
+              </div>
+            </div>
+          </div>
         </div>
-       </section>
+      </section>
 
-       <!-- Testimonials -->
-        <section class="testimonials-section">
-          <div class="container">
-            <p class="section-eyebrow center">Student Voices</p>
-           <h2 class="section-title center">What Our Students Say</h2>
-            <div class="testimonials-grid">
-              <div class="testi-card">
-                <div class="testi-quote">"</div>
-                <p>"Ashford gave me not just a degree, but a worldview. The professors genuinely invest in your growth and the research opportunities here are unlike anything I imagined."</p>
-                <div class="testi-author">
-                  <div class="testi-avatar" style="background: #2d6a9f;">AN</div>
-                  <div>
-                    <strong>Amara Nwosu</strong>
-                    <span>BSc Biochemistry, class of 2024</span>
-                  </div>
+      <!-- Testimonials -->
+      <section class="testimonials-section">
+        <div class="container">
+          <p class="section-eyebrow center">Student Voices</p>
+          <h2 class="section-title center">What Our Students Say</h2>
+          <div class="testimonials-grid">
+            <div class="testi-card">
+              <div class="testi-quote">"</div>
+              <p>
+                "Ashford gave me not just a degree, but a worldview. The
+                professors genuinely invest in your growth and the research
+                opportunities here are unlike anything I imagined."
+              </p>
+              <div class="testi-author">
+                <div class="testi-avatar" style="background: #2d6a9f">AN</div>
+                <div>
+                  <strong>Amara Nwosu</strong>
+                  <span>BSc Biochemistry, Class of 2024</span>
                 </div>
               </div>
-              <div class="testi-card highlight">
-                <div class="testi-quote">"</div>
-                <p>"The Engineering faculty is extraordinary. I had access to industry partners from day one and secured a graduate role at Tesla before finishing my final exams."</p>
-                <div class="testi-author">
-                  <div class="testi-avatar" style="background: #c8952a;">JE</div>
-                  <div>
-                    <strong>James Eze</strong>
-                    <span>MEng Mechanical Engineering, 2025</span>
-                  </div>
+            </div>
+            <div class="testi-card highlight">
+              <div class="testi-quote">"</div>
+              <p>
+                "The Engineering faculty is extraordinary. I had access to
+                industry partners from day one and secured a graduate role at
+                Tesla before finishing my final exams."
+              </p>
+              <div class="testi-author">
+                <div class="testi-avatar" style="background: #c8952a">JK</div>
+                <div>
+                  <strong>James Kirkwood</strong>
+                  <span>MEng Mechanical Engineering, 2025</span>
                 </div>
               </div>
-              <div class="testi-card">
-                <div class="testi-quote">"</div>
-                <p>"Coming from England, I was nervous about fitting in. Ashford's international community made me feel at home immediately. The support network is remarkable."</p>
-                <div class="testi-author">
-                  <div class="testi-avatar" style="background: #5a3e6b;">KR</div>
-                  <div>
-                    <strong>Kirkwood Rashford</strong>
-                    <span>LLb Law, Class of 2025</span>
-                  </div>
+            </div>
+            <div class="testi-card">
+              <div class="testi-quote">"</div>
+              <p>
+                "Coming from Lagos, I was nervous about fitting in. Ashford's
+                international community made me feel at home immediately. The
+                support network is remarkable."
+              </p>
+              <div class="testi-author">
+                <div class="testi-avatar" style="background: #5a3e6b">FA</div>
+                <div>
+                  <strong>Fatima Al-Rashid</strong>
+                  <span>LLB Law, Class of 2025</span>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- CTA Banner -->
-         <section class="cta-banner">
-            <div class="cta-bg"></div>
-            <div class="container cta-inner">
-              <h2>Your Journey Begins Here</h2>
-              <p>Join 48,000 students shaping the future at Ashford University.</p>
-                    <div class="cta-btns">
-                    <button class="btn-primary" onclick="showPage('admissions')">Apply Now</button>
-                    <button class="btn-ghost" onclick="showPage('contact')">Request Information</button>
-                   </div>
+      <!-- CTA Banner -->
+      <section class="cta-banner">
+        <div class="cta-bg"></div>
+        <div class="container cta-inner">
+          <h2>Your Journey Begins Here.</h2>
+          <p>Join 48,000 students shaping the future at Ashford University.</p>
+          <div class="cta-btns">
+            <button class="btn-primary" onclick="showPage('admissions')">
+              Apply Now
+            </button>
+            <button class="btn-ghost" onclick="showPage('contact')">
+              Request Information
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer-grid">
+          <div class="footer-brand">
+            <span class="logo-crest large">⬡</span>
+            <h3>Ashford University</h3>
+            <p>Excellence in Every Endeavour since 1887.</p>
+            <div class="social-links">
+              <a href="#" class="social-btn">𝕏</a>
+              <a href="#" class="social-btn">in</a>
+              <a href="#" class="social-btn">f</a>
+              <a href="#" class="social-btn">▶</a>
             </div>
+          </div>
+          <div class="footer-col">
+            <h4>Academics</h4>
+            <a href="#" onclick="showPage('courses')">Faculties</a>
+            <a href="#" onclick="showPage('courses')">Postgraduate</a>
+            <a href="#">Research</a>
+            <a href="#">Library</a>
+          </div>
+          <div class="footer-col">
+            <h4>Student Life</h4>
+            <a href="#" onclick="showPage('portal')">Student Portal</a>
+            <a href="#">Accommodation</a>
+            <a href="#">Sports & Clubs</a>
+            <a href="#">Careers</a>
+          </div>
+          <div class="footer-col">
+            <h4>Information</h4>
+            <a href="#" onclick="showPage('about')">About Ashford</a>
+            <a href="#" onclick="showPage('admissions')">Admissions</a>
+            <a href="#" onclick="showPage('contact')">Contact Us</a>
+            <a href="#">Press</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 Ashford University. All rights reserved.</p>
+          <p>Privacy Policy · Terms of Use · Accessibility</p>
+        </div>
+      </footer>
+    </div>
 
-         </section>
+    <!-- About Page -->
+<div id="page-about" class="page">
+  <div class="page-hero small-hero">
+    <div class="hero-bg"><div class="hero-orb orb1"></div><div class="hero-orb orb2"></div></div>
+    <div class="container">
+      <p class="section-eyebrow">Who We Are</p>
+      <h1 class="page-hero-title">About Ashford</h1>
+    </div>
+  </div>
 
-          <footer class="footer">
+  <section class="content-section">
+    <div class="container">
+      <div class="timeline-section">
+        <p class="section-eyebrow">Our History</p>
+        <h2 class="section-title">Over 135 Years of<br>Academic Tradition</h2>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-year">1887</div>
+            <div class="tl-content">
+              <h4>Founded by Sir Edmund Ashford</h4>
+              <p>Established as Ashford College with 40 students and four faculty members in Oxford, England.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">1920</div>
+            <div class="tl-content">
+              <h4>University Charter Granted</h4>
+              <p>Royal Charter elevated the institution to full university status, enabling degree-conferring powers.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">1965</div>
+            <div class="tl-content">
+              <h4>Faculty of Sciences Established</h4>
+              <p>A landmark £3M investment created state-of-the-art science facilities, attracting global researchers.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">1998</div>
+            <div class="tl-content">
+              <h4>International Expansion</h4>
+              <p>Partnership programmes with 60 universities worldwide solidified Ashford's global identity.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2024</div>
+            <div class="tl-content">
+              <h4>Innovation Hub Opens</h4>
+              <p>A £180M state-of-the-art innovation centre for AI, biotech, and sustainable technology research.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mission-section">
+    <div class="container mission-grid">
+      <div class="mission-card">
+        <div class="mission-icon">🎯</div>
+        <h3>Our Mission</h3>
+        <p>To advance knowledge through exceptional teaching and pioneering research, empowering graduates to lead and innovate in a complex, interconnected world — with integrity, empathy, and purpose.</p>
+      </div>
+      <div class="mission-card accent">
+        <div class="mission-icon">🔭</div>
+        <h3>Our Vision</h3>
+        <p>To be the world's most impactful university — a beacon of discovery where ideas transform societies, where diverse voices are amplified, and where every student reaches their full potential.</p>
+      </div>
+      <div class="mission-card">
+        <div class="mission-icon">💎</div>
+        <h3>Our Values</h3>
+        <ul class="values-list">
+          <li>Academic Rigour & Integrity</li>
+          <li>Inclusive Community</li>
+          <li>Innovation & Discovery</li>
+          <li>Global Citizenship</li>
+          <li>Social Responsibility</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="leadership-section">
+    <div class="container">
+      <p class="section-eyebrow center">Leadership</p>
+      <h2 class="section-title center">Meet Our Leadership Team</h2>
+      <div class="leadership-grid">
+        <div class="leader-card">
+          <div class="leader-avatar" style="background:linear-gradient(135deg,#1a3a5c,#2d6a9f)">
+            <span>PM</span>
+          </div>
+          <h3>Prof. Margaret Ellison</h3>
+          <span class="leader-role">Vice-Chancellor</span>
+          <p>A distinguished economist and former UN Adviser, Prof. Ellison has led Ashford since 2019, driving a strategy of global excellence and inclusive growth.</p>
+        </div>
+        <div class="leader-card">
+          <div class="leader-avatar" style="background:linear-gradient(135deg,#5a3e6b,#8b5e9e)">
+            <span>RO</span>
+          </div>
+          <h3>Prof. Richard Osei</h3>
+          <span class="leader-role">Pro-Vice-Chancellor, Research</span>
+          <p>Leading £420M in annual research investment, Prof. Osei champions interdisciplinary breakthroughs across medicine, climate science, and AI.</p>
+        </div>
+        <div class="leader-card">
+          <div class="leader-avatar" style="background:linear-gradient(135deg,#8b3a2a,#c8621a)">
+            <span>SH</span>
+          </div>
+          <h3>Dr. Sophia Hartley</h3>
+          <span class="leader-role">Pro-Vice-Chancellor, Education</span>
+          <p>An award-winning pedagogue dedicated to transforming the student experience through technology-enhanced and personalised learning.</p>
+        </div>
+        <div class="leader-card">
+          <div class="leader-avatar" style="background:linear-gradient(135deg,#1a5c3a,#2d9f6a)">
+            <span>TN</span>
+          </div>
+          <h3>Mr. Thomas Nkrumah</h3>
+          <span class="leader-role">Registrar & Chief Operating Officer</span>
+          <p>Overseeing operations across 12 faculties and 48,000 students, Thomas ensures Ashford runs with precision, fairness, and transparency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
     <div class="container footer-grid">
       <div class="footer-brand">
         <span class="logo-crest large">⬡</span>
         <h3>Ashford University</h3>
         <p>Excellence in Every Endeavour since 1887.</p>
-        <div class="social-links">
-          <a href="#" class="social-btn">𝕏</a>
-          <a href="#" class="social-btn">in</a>
-          <a href="#" class="social-btn">f</a>
-          <a href="#" class="social-btn">▶</a>
-        </div>
       </div>
       <div class="footer-col">
-        <h4>Academics</h4>
+        <h4>Quick Links</h4>
+        <a href="#" onclick="showPage('home')">Home</a>
         <a href="#" onclick="showPage('courses')">Faculties</a>
-        <a href="#" onclick="showPage('courses')">Postgraduate</a>
-        <a href="#">Research</a>
-        <a href="#">Library</a>
-      </div>
-      <div class="footer-col">
-        <h4>Student Life</h4>
-        <a href="#" onclick="showPage('portal')">Student Portal</a>
-        <a href="#">Accommodation</a>
-        <a href="#">Sports & Clubs</a>
-        <a href="#">Careers</a>
-      </div>
-      <div class="footer-col">
-        <h4>Information</h4>
-        <a href="#" onclick="showPage('about')">About Ashford</a>
         <a href="#" onclick="showPage('admissions')">Admissions</a>
-        <a href="#" onclick="showPage('contact')">Contact Us</a>
-        <a href="#">Press</a>
+        <a href="#" onclick="showPage('contact')">Contact</a>
       </div>
     </div>
     <div class="footer-bottom">
       <p>© 2026 Ashford University. All rights reserved.</p>
-      <p>Privacy Policy · Terms of Use · Accessibility</p>
     </div>
   </footer>
+</div>
+
+<!-- COURSES PAGE -->
+ <div id="page-courses" class="page">
+  <div class="page-hero small-hero">
+    <div class="hero-bg"><div class="hero-orb orb1"></div><div class="hero-orb orb2"></div></div>
+    <div class="container">
+      <p class="section-eyebrow">Academic Programmes</p>
+      <h1 class="page-hero-title">Faculties & Courses</h1>
     </div>
+  </div>
+
+  <section class="content-section">
+    <div class="container">
+      <div class="faculty-tabs">
+        <button class="tab-btn active" onclick="filterFaculty('all',this)">All Faculties</button>
+        <button class="tab-btn" onclick="filterFaculty('science',this)">Sciences</button>
+        <button class="tab-btn" onclick="filterFaculty('engineering',this)">Engineering</button>
+        <button class="tab-btn" onclick="filterFaculty('business',this)">Business</button>
+        <button class="tab-btn" onclick="filterFaculty('arts',this)">Arts</button>
+        <button class="tab-btn" onclick="filterFaculty('law',this)">Law</button>
+        <button class="tab-btn" onclick="filterFaculty('medicine',this)">Medicine</button>
+      </div>
+
+      <div class="faculty-grid" id="facultyGrid">
+
+        <div class="faculty-block" data-faculty="science">
+          <div class="faculty-header sci">
+            <span>⚗️</span>
+            <h3>Faculty of Sciences</h3>
+            <p>Pioneering discovery from molecules to galaxies</p>
+          </div>
+          <div class="courses-list">
+            <div class="course-item"><div class="ci-info"><strong>BSc Biology</strong><p>Study of life sciences from cell to ecosystem</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>BSc Chemistry</strong><p>Molecular science and materials innovation</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>BSc Physics</strong><p>From quantum mechanics to cosmology</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>MSc Biotechnology</strong><p>Applied biological systems for industry and health</p></div><span class="ci-dur">1 Year</span></div>
+            <div class="course-item"><div class="ci-info"><strong>PhD Astrophysics</strong><p>Research programme in observational astronomy</p></div><span class="ci-dur">3–4 Years</span></div>
+          </div>
+        </div>
+
+        <div class="faculty-block" data-faculty="engineering">
+          <div class="faculty-header eng">
+            <span>⚙️</span>
+            <h3>Faculty of Engineering</h3>
+            <p>Designing tomorrow's infrastructure today</p>
+          </div>
+          <div class="courses-list">
+            <div class="course-item"><div class="ci-info"><strong>MEng Civil Engineering</strong><p>Infrastructure, structures, and urban design</p></div><span class="ci-dur">4 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>BEng Mechanical Engineering</strong><p>Thermodynamics, dynamics, and manufacturing</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>BEng Computer Engineering</strong><p>Hardware-software integration and embedded systems</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>MEng Electrical & Electronic</strong><p>Power systems, electronics, and communications</p></div><span class="ci-dur">4 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>MSc Artificial Intelligence</strong><p>Machine learning, NLP, and intelligent systems</p></div><span class="ci-dur">1 Year</span></div>
+          </div>
+        </div>
+
+        <div class="faculty-block" data-faculty="business">
+          <div class="faculty-header bus">
+            <span>📊</span>
+            <h3>Faculty of Business</h3>
+            <p>Building ethical leaders for global markets</p>
+          </div>
+          <div class="courses-list">
+            <div class="course-item"><div class="ci-info"><strong>BSc Business Administration</strong><p>Foundations of strategy, finance, and operations</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>MBA</strong><p>Executive business leadership and management</p></div><span class="ci-dur">1–2 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>MSc Finance</strong><p>Investment, risk, and financial markets</p></div><span class="ci-dur">1 Year</span></div>
+            <div class="course-item"><div class="ci-info"><strong>BSc Economics</strong><p>Micro and macroeconomic theory and application</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>MSc Marketing</strong><p>Digital strategy, brand management, and consumer behaviour</p></div><span class="ci-dur">1 Year</span></div>
+          </div>
+        </div>
+
+        <div class="faculty-block" data-faculty="arts">
+          <div class="faculty-header art">
+            <span>🎨</span>
+            <h3>Faculty of Arts & Humanities</h3>
+            <p>Engaging culture, history, and the human condition</p>
+          </div>
+          <div class="courses-list">
+            <div class="course-item"><div class="ci-info"><strong>BA English Literature</strong><p>Critical reading and analysis from Chaucer to contemporary fiction</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>BA History</strong><p>Global historical inquiry from antiquity to modernity</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>BA Philosophy</strong><p>Ethics, logic, metaphysics, and political thought</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>MA Creative Writing</strong><p>Advanced fiction, poetry, and narrative craft</p></div><span class="ci-dur">1 Year</span></div>
+            <div class="course-item"><div class="ci-info"><strong>BA Fine Art</strong><p>Studio practice, critical theory, and art history</p></div><span class="ci-dur">3 Years</span></div>
+          </div>
+        </div>
+
+        <div class="faculty-block" data-faculty="law">
+          <div class="faculty-header law">
+            <span>⚖️</span>
+            <h3>Faculty of Law</h3>
+            <p>Justice, advocacy, and legal scholarship</p>
+          </div>
+          <div class="courses-list">
+            <div class="course-item"><div class="ci-info"><strong>LLB Law</strong><p>Foundations of English and international law</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>LLM International Law</strong><p>Public international law, human rights, and global governance</p></div><span class="ci-dur">1 Year</span></div>
+            <div class="course-item"><div class="ci-info"><strong>LLM Commercial Law</strong><p>Corporate transactions, contracts, and financial regulation</p></div><span class="ci-dur">1 Year</span></div>
+            <div class="course-item"><div class="ci-info"><strong>PhD Law</strong><p>Original legal research in specialist areas</p></div><span class="ci-dur">3–4 Years</span></div>
+          </div>
+        </div>
+
+        <div class="faculty-block" data-faculty="medicine">
+          <div class="faculty-header med">
+            <span>🧠</span>
+            <h3>Faculty of Medicine</h3>
+            <p>Healing, research, and clinical excellence</p>
+          </div>
+          <div class="courses-list">
+            <div class="course-item"><div class="ci-info"><strong>MBChB Medicine & Surgery</strong><p>Complete clinical medical training</p></div><span class="ci-dur">5 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>BSc Nursing</strong><p>Comprehensive nursing education and clinical practice</p></div><span class="ci-dur">3 Years</span></div>
+            <div class="course-item"><div class="ci-info"><strong>MSc Public Health</strong><p>Epidemiology, health policy, and global health</p></div><span class="ci-dur">1 Year</span></div>
+            <div class="course-item"><div class="ci-info"><strong>MSc Neuroscience</strong><p>Brain function, disorders, and neurotechnology</p></div><span class="ci-dur">1 Year</span></div>
+            <div class="course-item"><div class="ci-info"><strong>PhD Medical Sciences</strong><p>Research in clinical and translational medicine</p></div><span class="ci-dur">3–4 Years</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="logo-crest large">⬡</span>
+        <h3>Ashford University</h3>
+        <p>Excellence in Every Endeavour since 1887.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#" onclick="showPage('home')">Home</a>
+        <a href="#" onclick="showPage('admissions')">Admissions</a>
+        <a href="#" onclick="showPage('contact')">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Ashford University. All rights reserved.</p></div>
+  </footer>
+</div>
+
+<!-- ADMISSIONS PAGE  -->
+ <div id="page-admissions" class="page">
+  <div class="page-hero small-hero">
+    <div class="hero-bg"><div class="hero-orb orb1"></div><div class="hero-orb orb2"></div></div>
+    <div class="container">
+      <p class="section-eyebrow">Join Ashford</p>
+      <h1 class="page-hero-title">Admissions</h1>
+    </div>
+  </div>
+
+  <section class="content-section">
+    <div class="container">
+      <div class="adm-grid">
+        <!-- Requirements -->
+        <div class="adm-card">
+          <h2 class="adm-title">Entry Requirements</h2>
+          <div class="req-block">
+            <h4>Undergraduate</h4>
+            <ul class="req-list">
+              <li>✓ 3 A-Levels (ABB minimum, AAA for competitive programmes)</li>
+              <li>✓ GCSE English Language and Mathematics at Grade 5+</li>
+              <li>✓ International Baccalaureate: 34–38 points</li>
+              <li>✓ English Proficiency: IELTS 6.5+ (no band below 6.0)</li>
+              <li>✓ Personal Statement and Academic Reference</li>
+            </ul>
+          </div>
+          <div class="req-block">
+            <h4>Postgraduate</h4>
+            <ul class="req-list">
+              <li>✓ Relevant Bachelor's degree (2:1 or above)</li>
+              <li>✓ IELTS 7.0+ for taught programmes</li>
+              <li>✓ Research proposal (for PhD applicants)</li>
+              <li>✓ Two academic references</li>
+              <li>✓ CV / Professional Portfolio (for MBA)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Process -->
+        <div class="adm-card">
+          <h2 class="adm-title">Application Process</h2>
+          <div class="steps">
+            <div class="step">
+              <div class="step-num">01</div>
+              <div class="step-body">
+                <h4>Choose Your Programme</h4>
+                <p>Browse our 320+ programmes and identify the degree that aligns with your ambitions and qualifications.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">02</div>
+              <div class="step-body">
+                <h4>Complete the Application</h4>
+                <p>Submit via UCAS (UK undergraduates) or our Direct Application Portal. Include all required documents.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">03</div>
+              <div class="step-body">
+                <h4>Await Our Decision</h4>
+                <p>Our admissions team reviews applications within 4–6 weeks. You'll receive a conditional or unconditional offer.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">04</div>
+              <div class="step-body">
+                <h4>Meet Your Conditions</h4>
+                <p>Submit final grades and proof of qualifications to convert your conditional offer.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">05</div>
+              <div class="step-body">
+                <h4>Enrol & Begin</h4>
+                <p>Complete online enrolment, arrange accommodation, and join the Ashford community!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Application Form -->
+      <div class="apply-form-section" id="applyForm">
+        <h2 class="section-title center">Start Your Application</h2>
+        <p class="center body-text" style="margin-bottom:2.5rem">Fill in the form below and our admissions team will be in touch within 2 business days.</p>
+        <div class="form-card">
+          <div class="form-grid">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="e.g. James" />
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="e.g. Kirkwood" />
+            </div>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" placeholder="you@example.com" />
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="+44 7XXX XXXXXX" />
+            </div>
+            <div class="form-group">
+              <label>Programme of Interest</label>
+              <select>
+                <option>Select a Programme</option>
+                <option>BSc Biology</option>
+                <option>MEng Civil Engineering</option>
+                <option>MBA</option>
+                <option>LLB Law</option>
+                <option>MBChB Medicine</option>
+                <option>MSc Artificial Intelligence</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Entry Year</label>
+              <select>
+                <option>2026/27</option>
+                <option>2027/28</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label>Personal Statement (optional)</label>
+              <textarea rows="4" placeholder="Tell us about yourself and why you wish to study at Ashford..."></textarea>
+            </div>
+          </div>
+          <button class="btn-primary full-btn" onclick="submitApplication()">Submit Application</button>
+        </div>
+        <div class="form-success hidden" id="formSuccess">
+          <span>🎉</span>
+          <h3>Application Received!</h3>
+          <p>Thank you for applying to Ashford University. Our admissions team will contact you within 2 business days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="logo-crest large">⬡</span>
+        <h3>Ashford University</h3>
+        <p>Excellence in Every Endeavour since 1887.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#" onclick="showPage('home')">Home</a>
+        <a href="#" onclick="showPage('courses')">Faculties</a>
+        <a href="#" onclick="showPage('contact')">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Ashford University. All rights reserved.</p></div>
+  </footer>
+</div>
+
+<!-- PORTAL / LOGIN  -->
+ <div id="page-portal" class="page">
+  <div id="portalLogin" class="portal-login">
+    <div class="portal-bg"><div class="hero-orb orb1"></div><div class="hero-orb orb2"></div></div>
+    <div class="login-card">
+      <div class="login-logo">
+        <span class="logo-crest">⬡</span>
+        <div>
+          <span class="logo-name">Ashford</span>
+          <span class="logo-sub">Student Portal</span>
+        </div>
+      </div>
+      <h2>Welcome Back</h2>
+      <p class="login-sub">Sign in to access your academic dashboard</p>
+      <div class="form-group">
+        <label>Student ID / Email</label>
+        <input type="text" placeholder="s12345678@ashford.ac.uk" id="loginEmail" />
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" placeholder="••••••••••" id="loginPassword" />
+      </div>
+      <div class="login-options">
+        <label class="checkbox-label"><input type="checkbox" /> Remember me</label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button class="btn-primary full-btn" onclick="doLogin()">Sign In</button>
+      <p class="login-footer">New student? <a href="#" onclick="showPage('admissions')">Apply here →</a></p>
+    </div>
+  </div>
+
+  <!-- Dashboard -->
+  <div id="portalDashboard" class="portal-dashboard hidden">
+    <div class="dashboard-sidebar">
+      <div class="db-logo">
+        <span class="logo-crest">⬡</span>
+        <span>Ashford Portal</span>
+      </div>
+      <nav class="db-nav">
+        <a class="db-link active" onclick="showDashTab('overview')">🏠 Overview</a>
+        <a class="db-link" onclick="showDashTab('grades')">📊 Grades</a>
+        <a class="db-link" onclick="showDashTab('timetable')">📅 Timetable</a>
+        <a class="db-link" onclick="showDashTab('announcements')">📢 Announcements</a>
+        <a class="db-link" onclick="logoutPortal()">🚪 Sign Out</a>
+      </nav>
+    </div>
+    <div class="dashboard-main">
+      <div class="db-topbar">
+        <div>
+          <h2 id="dbGreeting">Good morning, James</h2>
+          <p>Tuesday, 11 May 2026 · Term 3, Week 8</p>
+        </div>
+        <div class="db-avatar">JK</div>
+      </div>
+
+      <!-- Overview Tab -->
+      <div id="tab-overview" class="dash-tab active">
+        <div class="db-cards">
+          <div class="db-card">
+            <span class="db-card-icon">📚</span>
+            <div><strong>6</strong><p>Enrolled Modules</p></div>
+          </div>
+          <div class="db-card">
+            <span class="db-card-icon">⭐</span>
+            <div><strong>73%</strong><p>Overall Average</p></div>
+          </div>
+          <div class="db-card">
+            <span class="db-card-icon">✅</span>
+            <div><strong>92%</strong><p>Attendance Rate</p></div>
+          </div>
+          <div class="db-card">
+            <span class="db-card-icon">📝</span>
+            <div><strong>2</strong><p>Upcoming Deadlines</p></div>
+          </div>
+        </div>
+        <div class="db-panels">
+          <div class="db-panel">
+            <h4>Today's Classes</h4>
+            <div class="class-item"><div class="class-time">09:00</div><div><strong>Thermodynamics II</strong><p>Lecture Hall B4 · Dr. Okafor</p></div></div>
+            <div class="class-item"><div class="class-time">11:00</div><div><strong>Fluid Mechanics</strong><p>Lab 12A · Prof. Chen</p></div></div>
+            <div class="class-item"><div class="class-time">14:00</div><div><strong>Engineering Design</strong><p>Studio 3 · Ms. Adeyemi</p></div></div>
+          </div>
+          <div class="db-panel">
+            <h4>Upcoming Deadlines</h4>
+            <div class="deadline-item urgent"><div class="dl-badge">Due Fri</div><div><strong>Thermodynamics Report</strong><p>3,000 word written assessment</p></div></div>
+            <div class="deadline-item"><div class="dl-badge soon">Due 20 May</div><div><strong>Fluid Mechanics Lab Report</strong><p>Lab findings and analysis</p></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grades Tab -->
+      <div id="tab-grades" class="dash-tab">
+        <h3 class="tab-title">Academic Results — Year 2, Semester 2</h3>
+        <div class="grades-table">
+          <div class="gt-header">
+            <span>Module</span><span>Credits</span><span>Mark</span><span>Grade</span><span>Status</span>
+          </div>
+          <div class="gt-row"><span>Thermodynamics II</span><span>20</span><span>76%</span><span>First</span><span class="g-pass">Pass</span></div>
+          <div class="gt-row"><span>Fluid Mechanics</span><span>20</span><span>68%</span><span>2:1</span><span class="g-pass">Pass</span></div>
+          <div class="gt-row"><span>Engineering Mathematics</span><span>20</span><span>81%</span><span>First</span><span class="g-pass">Pass</span></div>
+          <div class="gt-row"><span>Materials Science</span><span>10</span><span>72%</span><span>First</span><span class="g-pass">Pass</span></div>
+          <div class="gt-row"><span>Engineering Design</span><span>20</span><span>65%</span><span>2:1</span><span class="g-pass">Pass</span></div>
+          <div class="gt-row"><span>Professional Practice</span><span>10</span><span>79%</span><span>First</span><span class="g-pass">Pass</span></div>
+          <div class="gt-footer"><span>Weighted Average</span><span>100 credits</span><span>74%</span><span>First Class</span><span></span></div>
+        </div>
+      </div>
+
+      <!-- Timetable Tab -->
+      <div id="tab-timetable" class="dash-tab">
+        <h3 class="tab-title">Weekly Timetable — Week 8</h3>
+        <div class="timetable-grid">
+          <div class="tt-header"><div></div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div></div>
+          <div class="tt-row"><div class="tt-time">09:00</div><div class="tt-cell eng">Thermodynamics Lec.</div><div class="tt-cell eng">Thermodynamics Lec.</div><div></div><div class="tt-cell math">Eng. Maths</div><div></div></div>
+          <div class="tt-row"><div class="tt-time">11:00</div><div></div><div class="tt-cell fluid">Fluid Mechanics</div><div class="tt-cell eng">Engineering Design</div><div></div><div class="tt-cell fluid">Fluid Lab</div></div>
+          <div class="tt-row"><div class="tt-time">14:00</div><div class="tt-cell mat">Materials Science</div><div class="tt-cell design">Eng. Design Studio</div><div></div><div class="tt-cell prof">Prof. Practice</div><div class="tt-cell eng">Thermodynamics Tut.</div></div>
+          <div class="tt-row"><div class="tt-time">16:00</div><div></div><div></div><div class="tt-cell math">Maths Workshop</div><div></div><div></div></div>
+        </div>
+      </div>
+
+      <!-- Announcements Tab -->
+      <div id="tab-announcements" class="dash-tab">
+        <h3 class="tab-title">Announcements</h3>
+        <div class="announce-list">
+          <div class="announce-item urgent-a">
+            <div class="ann-tag red">Urgent</div>
+            <h4>Library Closure — 14 May 2026</h4>
+            <p>The main library will be closed for essential maintenance from 8am–6pm on Wednesday 14 May. Digital resources remain available 24/7 via the online portal.</p>
+            <span class="ann-date">Posted: 9 May 2026</span>
+          </div>
+          <div class="announce-item">
+            <div class="ann-tag blue">Academic</div>
+            <h4>Exam Timetable Published for Term 3</h4>
+            <p>The full examination timetable for Term 3 is now available on the student portal. Please review your schedule carefully and report any clashes to the Examinations Office.</p>
+            <span class="ann-date">Posted: 7 May 2026</span>
+          </div>
+          <div class="announce-item">
+            <div class="ann-tag green">Event</div>
+            <h4>Engineering Society Summer Ball — 24 May</h4>
+            <p>Tickets are now available for the annual Engineering Society Summer Ball. Early bird pricing ends 15 May. Purchase via the Student Union website.</p>
+            <span class="ann-date">Posted: 5 May 2026</span>
+          </div>
+          <div class="announce-item">
+            <div class="ann-tag blue">Academic</div>
+            <h4>Dissertation Supervision Allocation — Year 3</h4>
+            <p>Final year students have been allocated dissertation supervisors. Check your email for your supervisor assignment and schedule an initial meeting by 31 May.</p>
+            <span class="ann-date">Posted: 1 May 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT PAGE  -->
+ <div id="page-contact" class="page">
+  <div class="page-hero small-hero">
+    <div class="hero-bg"><div class="hero-orb orb1"></div><div class="hero-orb orb2"></div></div>
+    <div class="container">
+      <p class="section-eyebrow">Get In Touch</p>
+      <h1 class="page-hero-title">Contact Us</h1>
+    </div>
+  </div>
+
+  <section class="content-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <h2 class="section-title">We'd Love<br>to Hear From You</h2>
+          <p class="body-text">Whether you have a question about our programmes, the admissions process, or campus life — our team is here to help.</p>
+          <div class="contact-details">
+            <div class="cd-item">
+              <span class="cd-icon">📍</span>
+              <div><strong>Address</strong><p>Ashford University, University Road, Lagos State. Nigeia</p></div>
+            </div>
+            <div class="cd-item">
+              <span class="cd-icon">📞</span>
+              <div><strong>Phone</strong><p>+2349157375252</p></div>
+            </div>
+            <div class="cd-item">
+              <span class="cd-icon">✉️</span>
+              <div><strong>Email</strong><p>sommynice788@gmail.com</p></div>
+            </div>
+            <div class="cd-item">
+              <span class="cd-icon">🕘</span>
+              <div><strong>Office Hours</strong><p>Monday – Friday: 09:00 – 17:00</p></div>
+            </div>
+          </div>
+          <div class="social-links" style="margin-top:2rem">
+            <a href="#" class="social-btn">𝕏</a>
+            <a href="#" class="social-btn">in</a>
+            <a href="#" class="social-btn">f</a>
+            <a href="#" class="social-btn">▶</a>
+            <a href="#" class="social-btn">📸</a>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <div class="form-card">
+            <h3>Send a Message</h3>
+            <div class="form-grid">
+              <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Your name" id="cName"/>
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="you@example.com" id="cEmail"/>
+              </div>
+              <div class="form-group full">
+                <label>Subject</label>
+                <select id="cSubject">
+                  <option>Admissions Enquiry</option>
+                  <option>Programme Information</option>
+                  <option>Student Support</option>
+                  <option>Research Collaboration</option>
+                  <option>Press & Media</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group full">
+                <label>Message</label>
+                <textarea rows="5" placeholder="Write your message here..." id="cMessage"></textarea>
+              </div>
+            </div>
+            <button class="btn-primary full-btn" onclick="sendContact()">Send Message</button>
+            <div class="form-success hidden" id="contactSuccess">
+              <span>✅</span>
+              <h3>Message Sent!</h3>
+              <p>Thank you for contacting Ashford University. We'll respond within 2 business days.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="map-section">
+        <h3>Find Us</h3>
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.8506668186393!2d-1.2607!3d51.7548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9f3e38a5d%3A0x7a3dc7b5c7d8e9f0!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2suk!4v1234567890"
+            width="100%" height="400" style="border:0;border-radius:12px" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="logo-crest large">⬡</span>
+        <h3>Ashford University</h3>
+        <p>Excellence in Every Endeavour since 1887.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#" onclick="showPage('home')">Home</a>
+        <a href="#" onclick="showPage('about')">About</a>
+        <a href="#" onclick="showPage('admissions')">Admissions</a>
+        <a href="#" onclick="showPage('courses')">Faculties</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Ashford University. All rights reserved.</p></div>
+  </footer>
+</div>
+
+
   </body>
 </html>
