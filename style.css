@@ -1057,7 +1057,7 @@ a {
   padding: 2.25rem;
   box-shadow: var(--shadow-sm);
   border: 1.5px solid transparent;
-  transition: all 0.3s;
+  transition: all 0.1s;
 }
 .mission-card:hover {
   border-color: var(--gold);
